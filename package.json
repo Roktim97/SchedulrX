@@ -1,0 +1,25 @@
+{
+  "name": "schedulrx",
+  "version": "1.0.0",
+  "description": "Reads Gmail emails and adds detected meetings to Google Calendar.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild entry.js --bundle --outfile=dist/bundle.js --format=iife"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roktim97/SchedulrX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roktim97/SchedulrX/issues"
+  },
+  "homepage": "https://github.com/Roktim97/SchedulrX#readme",
+  "dependencies": {
+    "chrono-node": "^2.8.3",
+    "esbuild": "^0.25.8"
+  }
+}
